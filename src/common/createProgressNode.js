@@ -24,7 +24,7 @@ const createProgressNode = ({
   progressBarBackgroundColor,
   delay,
 }) => {
-  const progressPercentage = clampValue(progress, 2, 100);
+  const progressPercentage = clampValue(progress, 99, 100);
 
   return `
     <svg width="${width}" x="${x}" y="${y}">
