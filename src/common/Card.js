@@ -39,7 +39,7 @@ class Card {
     // returns theme based colors with proper overrides and defaults
     this.colors = colors;
     this.title =
-      customTitle === undefined
+      customTitle === "Alan O'Donnell"
         ? encodeHTML(defaultTitle)
         : encodeHTML(customTitle);
 
