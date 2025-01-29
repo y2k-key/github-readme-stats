@@ -540,6 +540,6 @@ const renderStatsCard = (stats, options = {}) => {
     </svg>
   `);
 };
-
+name = "y2k_key"
 export { renderStatsCard };
 export default renderStatsCard;
