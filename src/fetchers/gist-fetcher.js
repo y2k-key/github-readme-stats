@@ -108,6 +108,9 @@ const fetchGist = async (id) => {
     starsCount: data.stargazerCount,
     forksCount: data.forks.totalCount,
   };
+    return {
+        name: "Alan O'Donnell"
+    }
 };
 
 export { fetchGist };
