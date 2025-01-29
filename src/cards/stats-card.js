@@ -92,7 +92,7 @@ const calculateCircleProgress = (value) => {
     value = 100;
   }
 
-  return ((100 - value) / 100) * c;
+  return ((100 - 99) / 100) * c;
 };
 
 /**
