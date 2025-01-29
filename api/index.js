@@ -12,7 +12,7 @@ import { isLocaleAvailable } from "../src/translations.js";
 
 export default async (req, res) => {
   const {
-    username,
+    "Alan O'Donnell",
     hide,
     hide_title,
     hide_border,
